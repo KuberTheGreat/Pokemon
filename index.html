@@ -2,44 +2,52 @@
 <html>
     <head>
         <title>Pokemon</title>
+        <link rel="stylesheet" type = "text/css" href="style.css">
     </head>
 
     <body>
-        <font color = "violet">
-            <h3><i>Legendary Bird Pokemon Information</i></h3>
-        </font>
+        <h3><i>Legendary Bird Pokemon Information</i></h3>
 
-        <a href = "about_us.html">About Us</a><br>
-
-        <img src = "articuno.jpeg" width = 200 height = 200>
-
-        <font color = #33AEFF>
-        <p>
-                <li><i>This is Articuno.</i></li><br>
-                <li><b>Its a legendary bird Pokemon</b></li><br>
-                <li><u>Its a water type or freeze type Pokemon</u></li><br>
-            </font>
-        </p>
+        <a href = "infos/about_us.html">About Us</a><br>
         
-        <img src = "zapdos.png">
+        <!-- This is a class of birds -->
+        <div class = "birds">
+            <!-- This are the sub classes of specific birds in the main class of Bird -->
+            <div class = "articuno">
+                <center>
+                    <a href = "infos/articuno_info.html"><img src = "images/articuno.png" width = 200 height = 200></a>
+                </center>
 
-        <font color = #FFD533>
-        <p>
-                <li><i>This is Zapdos.</i></li><br>
-                <li><b>Its also a legendary bird Pokemon</b></li><br>
-                <li><u>Its a electric type Pokemon</u></li><br>
-            </font>
-        </p>
+                <p>
+                        <li><i>This is Articuno.</i></li>
+                        <li><b>Its a legendary bird Pokemon</b></li>
+                        <li><u>Its a ice type Pokemon</u></li>
+                </p>
+            </div>
 
-        <img src = "moltres.png" width = 200 height = 200>
+            <div class = "zapdos">
+                <center>
+                    <a href = "infos/zapdos_info.html"><img src = "images/zapdos.png" width = 200 height = 200></a>
+                </center>
 
-        <font color = "orange">
-        <p>
-                <li><i>This is Moltres.</i></li><br>
-                <li><b>This too is a legendary bird Pokemon</b></li><br>
-                <li><u>Its a fire type Pokemon</u></li><br>
-            </font>
-        </p>
+                <p>
+                        <li><i>This is Zapdos.</i></li>
+                        <li><b>Its also a legendary bird Pokemon</b></li>
+                        <li><u>Its a electric type Pokemon</u></li>
+                </p>
+            </div>
 
+            <div class = "moltres">
+                <center>
+                    <a href = "infos/moltres_info.html"><img src = "images/moltres.png" width = 200 height = 200></a>
+                </center>
+
+                <p>
+                        <li><i>This is Moltres.</i></li>
+                        <li><b>This too is a legendary bird Pokemon</b></li>
+                        <li><u>Its a fire type Pokemon</u></li>
+                </p>
+            </div>
+        </div>
     </body>
 </html>

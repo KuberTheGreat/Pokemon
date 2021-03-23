@@ -1,0 +1,33 @@
+h3{
+    color: rgb(206, 23, 200);
+    font-family: cursive;
+}
+
+body{
+    background-color:rgb(241, 155, 155);
+}
+
+.birds{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: lighter;
+}
+
+/* Identifier for the Articuno class */
+.articuno{
+    color: rgb(43, 148, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Identifier for the Zapdos class */
+.zapdos{
+    color: rgb(255, 218, 96);
+    font-family: Impact;
+}
+
+/* Identifier for the Moltres class */
+.moltres{
+    color: rgb(235, 93, 63);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
