@@ -4,7 +4,7 @@ h3{
 }
 
 body{
-    background-color:rgb(241, 155, 155);
+    background-color:rgb(236, 189, 189);
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -21,6 +21,7 @@ body{
     color: rgb(43, 148, 235);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 50px;
+    opacity: 0.33;
 }
 
 /* Identifier for the Zapdos class */
@@ -28,6 +29,7 @@ body{
     color: rgb(255, 218, 96);
     font-family: Impact;
     padding-top: 50px;
+    opacity: 0.33;
 }
 
 /* Identifier for the Moltres class */
@@ -36,4 +38,21 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-right: 50px;
     padding-top: 50px;
+    opacity: 0.33;
+}
+
+.articuno:hover{
+    opacity: 1;
+}
+
+.zapdos:hover{
+    opacity: 1;
+}
+
+.moltres:hover{
+    opacity: 1;
+}
+
+a:hover{
+    color:crimson;
 }
